@@ -11,4 +11,4 @@ public class TemelOpet
        int b= input.nextInt();
         System.out.println(b);
     }
-}
+}//değişilik
