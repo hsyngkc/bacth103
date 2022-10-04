@@ -11,5 +11,6 @@ public class DegiskenVeri {
         int cevre=kisaKenar+uzunKenar;
         System.out.println(alan);
         System.out.print(cevre);
+        //beceremedim
     }
 }
