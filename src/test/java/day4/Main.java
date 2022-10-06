@@ -5,7 +5,7 @@ public class Main {
         int x = 3;
         String Shasan = "merhaba";
         System.out.println(Shasan);
-        String x = "yakın kampüs";
+
 
     }
 }
