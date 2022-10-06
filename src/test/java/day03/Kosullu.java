@@ -7,6 +7,6 @@ public class Kosullu {
         System.out.println(c);
 boolean d= true, e=false;
         System.out.println((d&&e)||(d||e));
-        ,
+
     }
 }
