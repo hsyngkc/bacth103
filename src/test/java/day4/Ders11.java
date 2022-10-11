@@ -17,5 +17,6 @@ public class Ders11 {
         Ders d3 = new Ders("MSSQL","koca",5);
         Ders dersliste[]= {d1,d2,d3};
         System.out.println(d1.sayi+d2.hoca+d3.hoca);
+
     }
 }
