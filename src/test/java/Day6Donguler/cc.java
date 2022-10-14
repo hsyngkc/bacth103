@@ -15,6 +15,7 @@ public class cc {
         kimya= not.nextInt();
 
         System.out.print("Türkçe notonu girniz:");
+
         turkce= not.nextInt();
 
         System.out.print("Tarih notunu giriniz:");
