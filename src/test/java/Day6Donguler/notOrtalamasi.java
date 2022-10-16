@@ -1,6 +1,6 @@
 package Day6Donguler;
 import java.util.Scanner;
-public class cc {
+public class notOrtalamasi {
     public static void main(String[] args) {
         Scanner not= new Scanner(System.in);
         int mat, fizik, kimya, turkce, tarih, muzik;
