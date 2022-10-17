@@ -11,7 +11,7 @@ public class KullaniciGiris {
         System.out.print("Paralo:");
         password = inp.nextLine();
 
-        if (usurName.equals("patika") && password.equals("java123")) {
+        if (usurName.equals("src/test/patika/patika") && password.equals("java123")) {
             System.out.println("Giriş Yatınız!");
         } else {
             System.out.println("Bilgileriniz Yanlış");
