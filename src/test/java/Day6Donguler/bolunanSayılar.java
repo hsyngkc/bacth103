@@ -2,28 +2,21 @@ package Day6Donguler;
 import java.util.Scanner;
 public class bolunanSayılar {
 
-        public static void main (String[]args){
-            int k,c=0,sum=0;
-            double average;
-            Scanner input=new Scanner(System.in);
-            System.out.print("Sayı giriniz: ");
-            k= input.nextInt();
-            for (int i=1; i<=k; i++){
-                if (i%3==0 && i%4==0){
-                    sum+=i;
-                    i++;
-                }
-            }
-            if (c==0)
-            {
-                System.out.println("3'e ve 4'e tam bölünebilen sayı yoktur.");
-            }
-            else {
-                average=sum/c;
-                System.out.println(k+" sayısına kadar olan 3'e ve 4'e tam bölünen \nSayıların ortalaması:"+average);
-            }
+        public static void main(String[] args) {
+
+            int i, sayi, sum=0, avg, n=0;
 
 
+            Scanner inp = new Scanner(System.in);
 
+            System.out.print("Bir sayı giriniz : " );
+            sayi = inp.nextInt();
+
+            for (i=0; i<=sayi; i+=12){
+                sum+=i;
+                n++;
+            }
+            avg=sum/(n-1);
+            System.out.print("3'e ve 4'e tam bölünen sayıların ortalaması: "+avg);
+        }
     }
-}
