@@ -10,7 +10,7 @@ public class yildizYapma {
         int n = input.nextInt();
         int r=1;
 
-        for (int i = 1; i <= n; i++) {
+       /*7 for (int i = 1; i <= n; i++) {
             for (int k = 1; k <= (n - i); k++) {
                 System.out.print(" ");
             }
@@ -18,14 +18,9 @@ public class yildizYapma {
                 System.out.print("*");
             } System.out.println();
         }
-
+*/
         for (int x = n-1; x>0  ; x--) {
-          for (int j = n; j>x ; j--) {
-              System.out.print(" ");
-          } for ( int k = 1 ; k<=(x*2)-1; k++) {
-                System.out.print("*");
-          }
-            System.out.println();
+            System.out.println(x);
         }
 
 
