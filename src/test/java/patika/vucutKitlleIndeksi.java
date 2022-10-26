@@ -4,19 +4,20 @@ import java.util.Scanner;
 
 public class vucutKitlleIndeksi {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
 
-        double a, b, result;
+        float kg, cm, index;
 
-        System.out.print("Lütfen Boyunuzu Giriniz: ");
-        a = input.nextDouble()/100;
+        System.out.print("Kilo değerini giriniz (kg) : ");
+        kg = input.nextInt();
 
-        System.out.print("Lütfen Kilonuzu Giriniz: ");
-        b = input.nextDouble();
+        System.out.print("Boy değerini giriniz (cm) :");
+        cm = input.nextInt();
 
-        result = b/(a*a);
+        index = kg / cm * cm;
 
-        System.out.println("Vücüt Kitle İndeksiniz: " + result);
+        System.out.print("Vücut kitle indexsiniz : " + index);
+
+
     }
 }
