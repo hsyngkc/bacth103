@@ -18,4 +18,4 @@ public class burcBulma {
        // çok uzun yazamadım.Mantığı kavradım ama.
         }
     }
-}
+
