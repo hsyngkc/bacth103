@@ -1,4 +1,4 @@
-package Dovuscu;
+package Day6Donguler.Dovuscu;
 
 public class Main {
     public static void main(String[] args) {

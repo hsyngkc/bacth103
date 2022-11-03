@@ -1,4 +1,4 @@
-package Dovuscu;
+package Day6Donguler.Dovuscu;
 
 public class Match {
     Fighter f1;
